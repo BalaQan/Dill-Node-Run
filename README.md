@@ -13,3 +13,5 @@ Before starting, you need to get the Andes role in Discord, for this, go to the 
 
   sudo apt update && apt upgrade -y
   sudo apt install curl make wget clang net-tools pkg-config libssl-dev build-essential jq lz4 gcc unzip snapd -y
+
+#Node installation steps:
