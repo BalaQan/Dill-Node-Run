@@ -15,3 +15,8 @@ Before starting, you need to get the Andes role in Discord, for this, go to the 
   sudo apt install curl make wget clang net-tools pkg-config libssl-dev build-essential jq lz4 gcc unzip snapd -y
 
 #Node installation steps:
+
+1-Download Binaries with the following command:
+
+  cd $HOME && curl -O https://dill-release.s3.ap-southeast-1.amazonaws.com/linux/dill.tar.gz && \
+  tar -xzvf dill.tar.gz && cd dill
