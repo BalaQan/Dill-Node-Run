@@ -20,3 +20,7 @@ Before starting, you need to get the Andes role in Discord, for this, go to the 
 
   cd $HOME && curl -O https://dill-release.s3.ap-southeast-1.amazonaws.com/linux/dill.tar.gz && \
   tar -xzvf dill.tar.gz && cd dill
+
+2-Generate Validator Keys With the following command:
+
+  ./dill_validators_gen new-mnemonic --num_validators=1 --chain=andes --folder=./
