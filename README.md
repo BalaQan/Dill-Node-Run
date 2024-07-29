@@ -50,3 +50,11 @@ Your keys can be found at: ./validator_keys
 
 Press any key.
 ubuntu@ip-xxxx:~/dill$
+
+3-Import your keys to a keystore file With the following command:
+
+./dill-node accounts import --andes --wallet-dir ./keystore --keys-dir validator_keys/ --accept-terms-of-use
+
+#Check your validator keys With the following command:
+
+ls -ltr ./validator_keys
