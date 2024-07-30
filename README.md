@@ -58,3 +58,7 @@ ubuntu@ip-xxxx:~/dill$
 #Check your validator keys With the following command:
 
 ls -ltr ./validator_keys
+
+4-Write the password you configured in the previous step into a file:
+
+echo 123@dill > walletPw.txt
