@@ -25,7 +25,7 @@ Before starting, you need to get the Andes role in Discord, for this, go to the 
 
   ./dill_validators_gen new-mnemonic --num_validators=1 --chain=andes --folder=./
 
-#The output should be as follows:
+#The output must be as follows:
 
 ubuntu@ip-xxxx:~/dill$ ./dill_validators_gen new-mnemonic --num_validators=1 --chain=andes --folder=./
 
@@ -62,3 +62,17 @@ ls -ltr ./validator_keys
 4-Write the password you configured in the previous step into a file:
 
 echo 123@dill > walletPw.txt
+
+5-Start light validator With the following command:
+
+./start_light.sh -p walletPw.txt
+
+#The output must be as follows:
+
+ubuntu@xxxxx:~/dill$ ./start_light.sh -p walletPw.txt
+Option --pwdfile, argument 'walletPw.txt'
+Remaining arguments:
+using password file at walletPw.txt
+start light node
+start light node done
+ubuntu@xxxxx:~/dill$ nohup: redirecting stderr to stdout
