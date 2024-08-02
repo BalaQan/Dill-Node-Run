@@ -76,3 +76,7 @@ using password file at walletPw.txt
 start light node
 start light node done
 ubuntu@xxxxx:~/dill$ nohup: redirecting stderr to stdout
+
+6-Check health node With the following command:
+
+./health_check.sh -v
